@@ -1,6 +1,3 @@
-# Suggested code may be subject to a license. Learn more: ~LicenseLog:559426227.
-# Suggested code may be subject to a license. Learn more: ~LicenseLog:2917997055.
-dockerfile
 FROM golang:1.20-alpine AS builder
 
 WORKDIR /app
