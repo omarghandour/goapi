@@ -18,7 +18,7 @@ func main() {
 		log.Printf("defaulting to port %s", port)
 	}
 
-	// Start HTTP server.
+	// Start HTTP server
 	log.Printf("listening .gg on port %s", port)
 	if err := http.ListenAndServe(":"+port, nil); err != nil {
 		log.Fatal(err)
